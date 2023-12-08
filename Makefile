@@ -24,7 +24,7 @@ MUSL_REPO = git://git.musl-libc.org/musl
 LINUX_SITE = https://cdn.kernel.org/pub/linux/kernel
 LINUX_HEADERS_SITE = http://ftp.barfooze.de/pub/sabotage/tarballs/
 
-DL_CMD = wget -c -O
+DL_CMD = wget -4 -c -O
 SHA1_CMD = sha1sum -c
 
 COWPATCH = $(CURDIR)/cowpatch.sh
